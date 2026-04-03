@@ -2,6 +2,8 @@
 
 A simple **Admin Dashboard built with React** that allows managing products and users with full CRUD functionality.
 
+## Live link
+https://admin-dashboard-ronitkbiswas.vercel.app/
 ---
 
 ## 🚀 Features
