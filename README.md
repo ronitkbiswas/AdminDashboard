@@ -1,18 +1,110 @@
-# React + Vite
+# ⚙️ Admin Dashboard (CRUD App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Admin Dashboard built with React** that allows managing products and users with full CRUD functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 🔐 Authentication
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* Basic login system
+* Demo credentials:
 
-Note: This will impact Vite dev & build performances.
+  * **Username:** admin
+  * **Password:** 1234
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📦 Product Management
+
+* Add new products
+* Edit existing products
+* Delete products
+* Search products
+* Filter by category
+* View stats (total products, value, categories)
+
+---
+
+### 👥 User Management
+
+* Add / Edit / Delete users
+* Search users (name/email)
+* Role-based tagging (Admin, Editor, Viewer)
+* Active / Inactive status
+
+---
+
+### 📊 Analytics Dashboard
+
+* Products by category
+* Users by role
+* Active vs inactive users
+* Top 5 expensive products
+
+---
+
+### ⚙️ Settings
+
+* Update site info
+* Toggle preferences (dark mode, notifications)
+* Simulated config panel
+
+---
+
+## 🧠 Tech Used
+
+* React (useState, useEffect)
+* LocalStorage (data persistence)
+* Inline CSS (no external libraries)
+
+---
+
+## 💾 Data Storage
+
+* Data is stored in **localStorage**
+* Products → `admin_products`
+* Users → `admin_users`
+
+---
+
+## 📂 Project Structure
+
+* Single-file React app (App.jsx)
+* Components inside same file:
+
+  * Login
+  * ProductsPage
+  * UsersPage
+  * AnalyticsPage
+  * SettingsPage
+
+---
+
+## ▶️ How to Run
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## ⚠️ Limitations
+
+* No backend (pure frontend app)
+* Authentication is not secure (hardcoded)
+* Not production-ready
+
+---
+
+## 🎯 Purpose
+
+This project is built for **learning CRUD operations, state management, and basic dashboard UI in React**.
+
+---
+
+## 🔥 Author
+
+Built by Ronit
