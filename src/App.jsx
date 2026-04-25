@@ -6,7 +6,7 @@ import { Charts } from './components/dashboard/Charts';
 import { DataTable } from './components/dashboard/DataTable';
 import { cn } from './lib/utils';
 import { motion, AnimatePresence } from 'motion/react';
-
+// main app starts from here //
 export default function App() {
   const [isSidebarCollapsed, setIsSidebarCollapsed] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
